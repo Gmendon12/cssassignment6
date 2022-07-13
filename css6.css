@@ -1,0 +1,344 @@
+body{
+    background-image: url(desert.jpg);
+
+}
+
+.flex{
+
+display: flex;
+flex-flow: row wrap;
+}
+
+.float{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.font123{
+    color: white;
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    left: 700px;
+    top: -55px;
+}
+
+.material-symbols-outlined{
+    position: relative;
+    top: 5px;
+
+}
+
+.font{
+    color: white;
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    left: 700px;
+    top: -50px;
+}
+.position{
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+.sahara{
+    font-size: 70px;
+    color: white;
+    background-color: gray;
+    height: 90px;
+    width: 350px;
+    padding-left: 5px;
+    
+}
+
+.para{
+    font-size: 15px;
+    color: gray;
+    height: 150px;
+    width: 450px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border-radius:30%;
+    border: 1px solid ;
+    background-color:lightgray;
+    position: relative;
+    bottom: 80px;
+    transition-property: all;
+    transition-duration: 10ms;
+}
+
+.button:hover{
+    transform: translateX(-2px) translateY(-2px);
+    border: white 1px solid;
+}
+
+.div{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 250px;
+    top: 0px;
+}
+
+.white{
+    color: white;
+    margin-left: 20px;
+}
+
+.cards1{
+    height: 200px;
+    width: 180px;
+    background-image: url(pic1.png);
+    background-size: cover;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px gray;
+    transition-property: all;
+    transition-duration: 10ms;
+    object-fit: fill;
+}
+
+.cards1:hover{
+    transform: translateX(-5px) translateY(-5px);
+    border: white 1px solid;
+}
+
+
+
+.cards2{
+    height: 200px;
+    width: 180px;
+    background-image: url(pic2.png);
+    background-size: cover;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px gray;
+    transition-property: all;
+    transition-duration: 10ms;
+}
+
+.cards2:hover{
+    transform: translateX(-5px) translateY(-5px);
+    border: white 1px solid;
+}
+
+
+.cards3{
+    height: 200px;
+    width: 180px;
+    background-image: url(pic-3.png);
+    background-size: cover;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px gray;
+    transition-property: all;
+    transition-duration: 10ms;
+}
+
+.cards3:hover{
+    transform: translateX(-5px) translateY(-5px);
+    border: white 1px solid;
+}
+
+
+.cards4{
+    height: 200px;
+    width: 180px;
+    background-image: url(pic-4.png);
+    background-size: cover;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px gray;
+    transition-property: all;
+    transition-duration: 10ms;
+}
+
+.cards4:hover{
+    transform: translateX(-5px) translateY(-5px);
+    border: white 1px solid;
+}
+
+@media (min-width:400px) and (max-width: 856px) {
+
+body{
+        background-image: url(desert.jpg);
+        width: 100%;
+        background-repeat: repeat-y;
+        background-size: contain;
+    }
+    
+
+.sahara{
+    font-size: 20px;
+    color: white;
+    background-color: none;
+    height: 30px;
+    width: 100px;
+    padding-left: 5px;
+}    
+
+.para{
+    font-size: 12px;
+    color: white;
+}
+
+
+.div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 150px;
+    position: relative;
+    left: calc((100vw - 720px)/2);
+    top: 220px;
+}
+
+.cards1 {
+    position: static;
+    text-align: center;
+    height: 180%;
+    width: 300%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cards2 {
+    position: static;
+    text-align: center;
+    height: 180%;
+    width: 300%;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards3{
+    position: static;
+    text-align: center;
+    height: 180%;
+    width: 300%;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards4{
+    position: static;
+    text-align: center;
+    height: 180%;
+    width: 300%;
+    background-size: cover;
+    background-position: center;
+}
+
+.float{
+    position: relative;
+    left: -350px;
+}
+
+.font{
+    font-size: 15px;
+}
+
+}
+              
+@media (max-width: 400px){
+
+.sahara{
+    font-size: 15px;
+    color: white;
+    background-color: none;
+    height: 20px;
+    width: 65px;
+    padding-left: 5px;
+}    
+    
+.para{
+    font-size: 12px;
+    color: white;
+    width: 250px;
+    color: gray;
+    position: static;
+}
+    
+
+.div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 150px;
+    position: relative;
+    left: calc((100vw - 400px)/2);
+    top: 220px;
+}
+    
+  
+.cards1 {
+    position: static;
+    text-align: center;
+    height: 200%;
+    width: 150%;
+    background-size: cover;
+    background-position: center;
+
+}  
+
+.cards2 {
+    position: static;
+    text-align: center;
+    height: 200%;
+    width: 150%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cards3 {
+    position: static;
+    text-align: center;
+    height: 200%;
+    width: 150%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cards4 {
+    position: static;
+    text-align: center;
+    height: 200%;
+    width: 150%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.float{
+ 
+    display: grid;
+    grid-template-rows: auto;
+    position: relative;
+    left: -500px;
+}
+
+.font{
+    font-size: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: -60px;
+    padding-left: 100px;
+    
+}
+
+}
